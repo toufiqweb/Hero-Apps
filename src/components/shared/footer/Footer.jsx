@@ -3,7 +3,7 @@ import logo from "../../../assets/images/logo.png";
 const Footer = () => {
   return (
     <footer className="bg-[#001931] text-white">
-      <div className=" container mx-auto">
+      <div className=" container mx-auto pt-10">
         <div className="footer sm:footer-horizontal  items-center p-4">
           <aside className="grid-flow-col items-center">
             <img className="w-10 h-10" src={logo} alt="" />
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
           </nav>
         </div>
-        <hr className="my-5 text-white" />
+        <hr className="my-5 text-white/70" />
         <div className="footer sm:footer-horizontal footer-center  text-white/70 p-4">
           <aside>
             <p>
