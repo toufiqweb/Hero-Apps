@@ -3,6 +3,7 @@ import Root from "../layouts/Root";
 import HomePage from "../pages/homePage/HomePage";
 import AllApps from "../pages/allApps/AllApps";
 import Installation from "../pages/Installation/Installation";
+import ErrorPage from "../pages/errorPage/ErrorPage";
 
 export const router = createBrowserRouter([
   {
@@ -22,5 +23,6 @@ export const router = createBrowserRouter([
         Component: Installation,
       },
     ],
+    errorElement: <ErrorPage></ErrorPage>,
   },
 ]);

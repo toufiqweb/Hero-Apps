@@ -21,7 +21,7 @@ const Stat = () => {
             <div className="stat-value text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
               906K
             </div>
-            <div className="stat-desc text-white/80" text-white>
+            <div className="stat-desc text-white/80">
               ↗︎ 400 (22%)
             </div>
           </div>
